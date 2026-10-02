@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>SkillGap Analyzer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>SkillGap Analyzer</h1>
+
+        <p class="subtitle">
+            Discover the skills you need for your target career.
+        </p>
+
+        <div class="card">
+             <form action="/analyze" method="GET">
+            <label for="role">Select Target Role</label>
+
+            <select id="role" name="role">
+    <option>Java Developer</option>
+    <option selected>Java Full Stack Developer</option>
+    <option>Frontend Developer</option>
+    <option>Backend Developer</option>
+    <option>Software Developer</option>
+    <option>Data Analyst</option>
+    <option>Python Developer</option>
+    <option>Web Developer</option>
+    <option>Database Developer</option>
+    <option>QA / Software Tester</option>
+</select>
+
+            <h3>Your Current Skills</h3>
+
+            <div class="skills">
+
+    <label>
+        <input type="checkbox" name="skill" value="Java">
+        Java
+    </label>
+
+    <label>
+        <input type="checkbox" name="skill" value="SQL">
+        SQL
+    </label>
+
+    <label>
+        <input type="checkbox" name="skill" value="HTML">
+        HTML
+    </label>
+
+    <label>
+        <input type="checkbox" name="skill" value="CSS">
+        CSS
+    </label>
+
+    <label>
+        <input type="checkbox" name="skill" value="JavaScript">
+        JavaScript
+    </label>
+
+    <label>
+        <input type="checkbox" name="skill" value="Spring Boot">
+        Spring Boot
+    </label>
+
+    <label>
+        <input type="checkbox" name="skill" value="React">
+        React
+    </label>
+
+    <label>
+        <input type="checkbox" name="skill" value="Git">
+        Git
+    </label>
+
+    <label>
+        <input type="checkbox" name="skill" value="DSA">
+        DSA
+    </label>
+
+    <label>
+        <input type="checkbox" name="skill" value="REST API">
+        REST API
+    </label>
+
+    <label>
+        <input type="checkbox" name="skill" value="MySQL">
+        MySQL
+    </label>
+
+    <label>
+        <input type="checkbox" name="skill" value="OOP">
+        OOP
+    </label>
+
+    <label>
+        <input type="checkbox" name="skill" value="JDBC">
+        JDBC
+    </label>
+
+    <label>
+        <input type="checkbox" name="skill" value="Bootstrap">
+        Bootstrap
+    </label>
+
+    <label>
+        <input type="checkbox" name="skill" value="TypeScript">
+        TypeScript
+    </label>
+
+    <label>
+        <input type="checkbox" name="skill" value="Python">
+        Python
+    </label>
+
+    <label>
+        <input type="checkbox" name="skill" value="Excel">
+        Excel
+    </label>
+
+</div>
+
+            <button type="submit">Analyze My Skills</button>
+                </form>
+
+        </div>
+
+    </div>
+
+</body>
+</html>
